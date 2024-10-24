@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Poetry virtual environments
+.virtualenvs/
+
+# poetry lock file
+poetry.lock
+
+# Distribution / packaging
+.Python
+env/
+venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyTorch checkpoints
+*.ckpt
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+nox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Data and logs
+logs/
+*.log
+*.csv
+*.dat
+*.pkl
+
+# Virtual environment created by Poetry (if you use `poetry shell`)
+poetry.lock
+.env/
+
+# VSCode settings
+.vscode/
